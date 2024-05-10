@@ -3,5 +3,11 @@ import common : printf;
 extern (C)
 void main()
 {
-    printf("Hello World in D!\n");
+    version(MOS6502)
+    {
+        printf("Hello World in D!\n");
+    } else
+    {
+        printf("Invalid Version!\n");
+    }
 }
