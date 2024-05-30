@@ -11,6 +11,10 @@ cd c64/fibonacci
 bash build.sh
 ls -lh
 cd $ROOTPATH
+cd c64/soa
+bash build.sh
+ls -lh
+cd $ROOTPATH
 
 # NESDOUG examples
 cd nesdoug/hello1
